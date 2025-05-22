@@ -1,6 +1,7 @@
 import React from "react";
 import "./userCard.css";
 import { Link } from "react-router-dom";
+import UserCard from "../components/UserCard";
 export const users = [
   {
     id: 1,
@@ -87,13 +88,7 @@ const Users = () => {
   return (
     <div className="container">
       {users.map((user) => (
-        <div key={user.id} className="card">
-          <img src={user.profile} alt="" />
-          <h2>{user.name}</h2>
-          <Link to={`/profile/${user.id}`} className="btn">
-            View Profile
-          </Link>
-        </div>
+        <UserCard key={user.id} user={user}/> 
       ))}
     </div>
   );
