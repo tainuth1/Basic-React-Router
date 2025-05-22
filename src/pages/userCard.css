@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+.card{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(213, 213, 213);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    border-radius: 50%;
+}
+.card .btn{
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
