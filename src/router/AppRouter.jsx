@@ -6,6 +6,9 @@ import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFound";
 import Users from "../pages/Users";
 import Profile from "../pages/Profile";
+import Dashboard from "../pages/dashboard/Dashboard";
+import Main from "../pages/dashboard/Main";
+import Settings from "../pages/dashboard/Settings";
 
 const AppRouter = () => {
   return (
@@ -16,6 +19,12 @@ const AppRouter = () => {
       <Route path="*" element={<NotFound />} />
       <Route path="/users" element={<Users/>}/>
       <Route path="/profile/:id" element={<Profile/>}/>
+
+      <Route path="/dashboard" element={<Dashboard />}>
+        <Route index element={<Main />} />
+        <Route path="settings" element={<Settings />} />
+      </Route>
+
     </Routes>
   );
 };

@@ -1,0 +1,8 @@
+.parent{
+    display: flex;
+}
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: dodgerblue;
+}

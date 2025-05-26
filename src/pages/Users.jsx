@@ -88,7 +88,7 @@ const Users = () => {
   return (
     <div className="container">
       {users.map((user) => (
-        <UserCard key={user.id} user={user}/> 
+        <UserCard key={user.id} user={user} />
       ))}
     </div>
   );
