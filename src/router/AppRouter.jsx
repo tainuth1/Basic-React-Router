@@ -21,6 +21,8 @@ const AppRouter = () => {
       <Route path="/profile/:id" element={<Profile/>}/>
 
       <Route path="/dashboard" element={<Dashboard />}>
+        {/* <Route path="" element={<Main />} /> */}
+        {/* OR */}
         <Route index element={<Main />} />
         <Route path="settings" element={<Settings />} />
       </Route>

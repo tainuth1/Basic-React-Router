@@ -5,4 +5,14 @@
     width: 200px;
     height: 100vh;
     background-color: dodgerblue;
+    padding: 15px;
+}
+.sidebar a{
+    display: block;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #787878;
+    text-decoration: none;
 }
