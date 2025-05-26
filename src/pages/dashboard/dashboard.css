@@ -16,3 +16,11 @@
     color: #787878;
     text-decoration: none;
 }
+.content{
+    padding: 20px;
+}
+
+.active{
+    background-color: green !important;
+    color: white !important;
+}

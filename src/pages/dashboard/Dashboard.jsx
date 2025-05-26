@@ -1,19 +1,19 @@
-import React from 'react'
-import "./dashboard.css"
-import { Link, Outlet } from 'react-router-dom'
+import React from "react";
+import "./dashboard.css";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className='parent'>
+    <div className="parent">
       <div className="sidebar">
-        <Link to={"/dashboard"}>Dashboard</Link>
-        <Link to={"/dashboard/settings"}>Settings</Link>
+        <NavLink to={"/dashboard"}>Dashboard</NavLink>
+        <NavLink to={"/dashboard/settings"}>Settings</NavLink>
       </div>
       <div className="content">
-        <Outlet/>
+        <Outlet />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
