@@ -9,6 +9,7 @@ import Profile from "../pages/Profile";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Main from "../pages/dashboard/Main";
 import Settings from "../pages/dashboard/Settings";
+import ProtectedRoute from "./ProtectedRoute";
 
 const AppRouter = () => {
   return (
@@ -17,16 +18,22 @@ const AppRouter = () => {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
-      <Route path="/users" element={<Users/>}/>
-      <Route path="/profile/:id" element={<Profile/>}/>
+      <Route path="/users" element={<Users />} />
+      <Route path="/profile/:id" element={<Profile />} />
 
-      <Route path="/dashboard" element={<Dashboard />}>
+      <Route
+        path="/dashboard"
+        element={
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
+        }
+      >
         {/* <Route path="" element={<Main />} /> */}
         {/* OR */}
         <Route index element={<Main />} />
         <Route path="settings" element={<Settings />} />
       </Route>
-
     </Routes>
   );
 };
