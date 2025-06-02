@@ -10,6 +10,7 @@ import Dashboard from "../pages/dashboard/Dashboard";
 import Main from "../pages/dashboard/Main";
 import ProtectedRoute from "./ProtectedRoute";
 import ViewProduct from "../pages/dashboard/ViewProduct";
+import UpdateProduct from "../pages/dashboard/UpdateProduct";
 
 const AppRouter = () => {
   return (
@@ -32,7 +33,9 @@ const AppRouter = () => {
         {/* <Route path="" element={<Main />} /> */}
         {/* OR */}
         <Route index element={<Main />} />
-        <Route path="view-product" element={<ViewProduct />} />
+        <Route path="view-product" element={<ViewProduct />} >
+          <Route path="edit-product" element={<UpdateProduct />} />
+        </Route>
       </Route>
     </Routes>
   );

@@ -1,18 +1,11 @@
 {
   "products": [
     {
-      "id": "1748837920284",
+      "id": "1748840542123",
       "name": "Coca Cola",
-      "price": "5",
+      "price": "3",
       "category": "Drink",
-      "image": "https://imgs.search.brave.com/myqJQJnYFuhZSFOKX14-pSj4e6gUANgk9VcnmhoaZ_8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vRWdKdGVS/dFozcVhWcllmTTh5/aHA4dTFvMWJQdDhW/ZGF4eHo2b3M3ZUIz/by9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkz/ZDNjdS9aSGh2YldG/eWF5NWpiMjB2L2Qz/QXRZMjl1ZEdWdWRD/OTEvY0d4dllXUnpM/MjFsWkdsaC9jeTl3/YjNOMExURTRNVFE0/L015OVRZVzF6ZFc1/bkxVZGgvYkdGNGVT/MVRNalV0Vld4MC9j/bUZmWm1WaGRIVnla/V1F0L2FXMWhaMlV0/Y0dGamEzTm8vYjNR/dGNtVjJhV1YzTG1w/dy9adw"
-    },
-    {
-      "id": "1748838651230",
-      "name": "SAMSUNG S25 Ultra",
-      "price": "4",
-      "category": "Computer",
-      "image": "https://imgs.search.brave.com/myqJQJnYFuhZSFOKX14-pSj4e6gUANgk9VcnmhoaZ_8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vRWdKdGVS/dFozcVhWcllmTTh5/aHA4dTFvMWJQdDhW/ZGF4eHo2b3M3ZUIz/by9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkz/ZDNjdS9aSGh2YldG/eWF5NWpiMjB2L2Qz/QXRZMjl1ZEdWdWRD/OTEvY0d4dllXUnpM/MjFsWkdsaC9jeTl3/YjNOMExURTRNVFE0/L015OVRZVzF6ZFc1/bkxVZGgvYkdGNGVT/MVRNalV0Vld4MC9j/bUZmWm1WaGRIVnla/V1F0L2FXMWhaMlV0/Y0dGamEzTm8vYjNR/dGNtVjJhV1YzTG1w/dy9adw"
+      "image": "https://imgs.search.brave.com/JYVHkmFDMlv8IzpxcvsNHikhH33BMW5Em2FafIIfPsI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vNTJsdVhI/UWVDblhFam8tdDNY/RjRhLW5sU1FnREpr/Z1FoMFdFUGZxNzE5/US9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkw/TXk1bS9kR05rYmk1/dVpYUXZhbkJuL0x6/QXpMekF4THpjekx6/QTIvTHpNMk1GOUdY/ek13TVRjei9NRFkw/T1Y5MFkxUnNWek5G/L2NXazNNM001TlZC/dVlWcDQvT1cxck0z/TkVORWxrVmpFMS9S/UzVxY0dj"
     }
   ]
 }
