@@ -7,7 +7,7 @@ const Dashboard = () => {
     <div className="parent">
       <div className="sidebar">
         <NavLink to={"/dashboard"}>Dashboard</NavLink>
-        <NavLink to={"/dashboard/settings"}>Settings</NavLink>
+        <NavLink to={"/dashboard/view-product"}>View Product</NavLink>
       </div>
       <div className="content">
         <Outlet />

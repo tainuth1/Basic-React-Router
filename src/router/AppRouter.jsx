@@ -8,8 +8,8 @@ import Users from "../pages/Users";
 import Profile from "../pages/Profile";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Main from "../pages/dashboard/Main";
-import Settings from "../pages/dashboard/Settings";
 import ProtectedRoute from "./ProtectedRoute";
+import ViewProduct from "../pages/dashboard/ViewProduct";
 
 const AppRouter = () => {
   return (
@@ -32,7 +32,7 @@ const AppRouter = () => {
         {/* <Route path="" element={<Main />} /> */}
         {/* OR */}
         <Route index element={<Main />} />
-        <Route path="settings" element={<Settings />} />
+        <Route path="view-product" element={<ViewProduct />} />
       </Route>
     </Routes>
   );
