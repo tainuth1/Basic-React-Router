@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import "./update.css";
 import { useEffect, useState } from "react";
 const UpdateProduct = () => {
@@ -89,6 +89,9 @@ const UpdateProduct = () => {
           onChange={handleChange}
           placeholder="Enter image url"
         />
+        <Link to={"/dashboard/view-product"}>
+          <button>Cancel</button>
+        </Link>
         <button>Update Product</button>
       </form>
     </div>
