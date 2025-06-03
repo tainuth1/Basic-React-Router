@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import "./product-card.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useParams } from "react-router-dom";
 
 const ViewProduct = () => {
   const [products, setProducts] = useState([]);
+  const { id } = useParams();
 
   const fetchProduct = async () => {
     try {
@@ -35,7 +36,7 @@ const ViewProduct = () => {
 
   useEffect(() => {
     fetchProduct();
-  }, []);
+  }, [id]);
 
   return (
     <div>
@@ -49,7 +50,7 @@ const ViewProduct = () => {
               <h2>{pro.name}</h2>
               <p>${pro.price}</p>
               <p>{pro.category}</p>
-              <Link to={`edit-product`}>
+              <Link to={`edit-product/${pro.id}`}>
                 <button>Edit</button>
               </Link>
               <button onClick={() => deleteProduct(pro.id)}>Delete</button>
@@ -57,6 +58,7 @@ const ViewProduct = () => {
           ))
         )}
       </div>
+      <Outlet />
     </div>
   );
 };

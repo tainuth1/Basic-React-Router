@@ -1,0 +1,35 @@
+.update-form{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.376);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update-form form{
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220);
+}
+.update-form form input, .update-form form select{
+    width: 100%;
+    font-size: 19px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.update-form form button{
+    border: none;
+    padding: 7px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    background-color: dodgerblue;
+    margin-top: 10px;
+}

@@ -34,7 +34,7 @@ const AppRouter = () => {
         {/* OR */}
         <Route index element={<Main />} />
         <Route path="view-product" element={<ViewProduct />} >
-          <Route path="edit-product" element={<UpdateProduct />} />
+          <Route path="edit-product/:id" element={<UpdateProduct />} />
         </Route>
       </Route>
     </Routes>
